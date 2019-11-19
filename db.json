@@ -1,14 +1,38 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "events": [
+    {
+      "name": "FRAME_ANALYSIS",
+      "fps": 0.002794061250205446,
+      "mean": 357901
+    },
+    {
+      "name": "OBJECT_DETECT",
+      "fps": 0.012102874432677761,
+      "mean": 82625
+    },
+    {
+      "name": "OBJECT_TRACKING",
+      "fps": 0.008125952260030472,
+      "mean": 123062
+    },
+    {
+      "name": "SENDING_TRACKING_DATA",
+      "fps": 0.0625,
+      "mean": 16000,
+      "processed_items": 1,
+      "items_left": 0
+    },
+    {
+      "name": "READING_FRAME",
+      "fps": 0.19685039370078738,
+      "mean": 5080
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "memory": {
+    "total": 16695205888,
+    "available": 4927930368,
+    "percent": 70.5,
+    "used": 10635005952,
+    "free": 172253184
   }
 }
